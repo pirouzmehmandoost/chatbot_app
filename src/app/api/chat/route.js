@@ -1,6 +1,6 @@
 import { openai } from "@ai-sdk/openai";
-import { streamText, tool, UIMessage } from "ai";
-import { z } from "zod"; // to validate schema of tooling
+import { streamText, tool } from "ai";
+import { z } from "zod";
 
 // Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
@@ -9,7 +9,7 @@ export async function POST(req) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: openai("gpt-4o-mini"),
+    model: openai("gpt-5-nano"),
     system: "You are a helpful assistant.",
     messages,
     tools: {
