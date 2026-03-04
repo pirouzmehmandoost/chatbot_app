@@ -7,8 +7,8 @@ const jost = Jost({
 });
 
 export const metadata = {
-  title: "AMA",
-  description: "An OpenAI Chatbot",
+  title: "PíChat",
+  description: "A Simple OpenAI Chatbot Project",
 };
 
 export default function RootLayout({ children }) {

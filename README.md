@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is a function AI assistant with a barebones UI. Please read the TO-DO list below to review limitations!
 
-## Deloyed with Vercel
+## Deployed with Vercel
 
 Visit: https://ama-app-nu.vercel.app/
 
@@ -24,15 +24,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - AI
   - [Vercel AI SDK](https://sdk.vercel.ai/docs) - Extensive toolkit for supporting various AI SDK Providers.
   - [OpenAI](https://platform.openai.com/docs/overview) - Provider, language model support for OpenAI API's (completion, responses, chat, embeddings).
-    - Current language model in use: GPT-4o-mini
+    - Model is set in the chat API route (api/chat/route.js).
 
 - Styling
   - [Tailwind CSS v4](https://tailwindcss.com)
-  - [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font)
+  - [next/font](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Jost](https://vercel.com/font)
 
 - Database/object storage
   - [Vercel Postgres](https://vercel.com/storage/postgres) - for storing chat metadata
-  - [Neon](https://neon.tech) + [pgvector] (https://neon.tech/docs/extensions/pgvector) - for Vector embedding storage/persistence. 
+  - [Neon](https://neon.tech) + [pgvector](https://neon.tech/docs/extensions/pgvector) - for Vector embedding storage/persistence. 
 
 ## Notes:
 
